@@ -1,5 +1,5 @@
 - name: "Ping the server"
-  host: roboshop
+  host: frontend
   tasks: # tasks == module == collection
   - name: "ping the server"
     ping:
