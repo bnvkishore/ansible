@@ -1,5 +1,5 @@
 - name: "Ping the server"
-  host: frontend
+  hosts: frontend
   tasks: # tasks == module == collection
   - name: "ping the server"
     module: "ping"
