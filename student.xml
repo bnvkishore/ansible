@@ -1,0 +1,20 @@
+<Student>
+    <FirstName>test</FirstName>
+    <LastName>sample</LastName>
+    <dob>01-01-1990</dob>
+    <mobile>1234567890</mobile>
+    <Addresses>
+        <PermAddress>
+            <Street>101</Street>
+            <AddressLine1>Gandhi nagar</AddressLine1>
+            <AddressLine2>4th cross</AddressLine2>
+            <city>Hyd</city>
+        </PermAddress>
+        <CurrentAddress>
+            <Street>101</Street>
+            <AddressLine1>Gandhi nagar</AddressLine1>
+            <AddressLine2>4th cross</AddressLine2>
+            <city>Hyd</city>
+        </CurrentAddress>
+    </Addresses>
+</Student>

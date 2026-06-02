@@ -1,0 +1,27 @@
+- name: "kishore kumar"
+  dob: "1990-01-01"
+  mobile: "123456"
+  addresses: 
+  - type: "perm"
+    street: 101
+    apartmentName: "Balaji apartment"
+    city: "HYD"
+  
+  - type: "current"
+    street: 101
+    apartmentName: "Venkateswara Apartments"
+    city: "VSKP"
+
+- name: "nani kumar"
+  dob: "1990-01-01"
+  mobile: "123456"
+  addresses: 
+  - type: "perm"
+    street: 101
+    apartmentName: "Balaji apartment"
+    city: "HYD"
+  
+  - type: "current"
+    street: 101
+    apartmentName: "Venkateswara Apartments"
+    city: "VSKP"

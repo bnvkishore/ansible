@@ -1,0 +1,18 @@
+{
+    "firstName": "test",
+    "lastName": "M",
+    "addresses": [
+        {
+            "type": "perm",
+            "street": "Gandhi nagar",
+            "apartment": "Blalaji Apartments",
+            "city": "hyd"
+        },
+        {
+            "type": "current",
+            "street": "Gandhi nagar",
+            "apartment": "Blalaji Apartments",
+            "city": "hyd"
+        }
+    ]
+}
