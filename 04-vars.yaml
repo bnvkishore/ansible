@@ -1,5 +1,5 @@
 - name: "demo on variables"
-  host: localhost
+  hosts: localhost
   connection: local
   vars:
     COURSE: "Ansible"
