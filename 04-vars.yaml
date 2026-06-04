@@ -1,0 +1,10 @@
+- name: "demo on variables"
+  host: localhost
+  connection: local
+  vars:
+    COURSE: "Ansible"
+    TRAINER: 'shiva'
+    DURATION: "150hrs"
+  tasks:
+  - debug:
+    msg: 'HI learning {{ COURSE }}, trainer is {{ TRAINER }}, Duration is {{ DURATION }}'
