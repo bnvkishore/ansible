@@ -3,4 +3,4 @@
   tasks:
   - name: "Debug"
     debug:
-      # msg: "This is debug message"
+      msg: "This is debug message"
