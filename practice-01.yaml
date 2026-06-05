@@ -1,5 +1,5 @@
 - name: "Testing server"
   hosts: frontend
-  task:
+  tasks:
   - name: "Testing server"
     ping:
