@@ -6,4 +6,5 @@
     TRAINER: 'siva'
     Duration: '150px'
   tasks: 
-  - name:
+  - debug:
+    msg: "Hi Learning {{COURSE}}, trainer is {{TRAINER}}. Duration is {{DURATION}}"
