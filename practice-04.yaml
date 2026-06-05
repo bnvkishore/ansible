@@ -1,0 +1,9 @@
+- name: "Demo on variables"
+  hosts: localhost
+  connection: local
+  variables:
+    COURSE: 'Ansible'
+    TRAINER: 'siva'
+    Duration: '150px'
+  tasks: 
+  - name:
