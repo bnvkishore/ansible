@@ -7,4 +7,4 @@
     Duration: '150px'
   tasks: 
   - debug:
-    msg: "Hi Learning {{COURSE}}, trainer is {{TRAINER}}. Duration is {{DURATION}}"
+      msg: "Hi Learning {{COURSE}}, trainer is {{TRAINER}}. Duration is {{DURATION}}"
