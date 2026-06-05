@@ -1,6 +1,6 @@
 - name: "Debug mode"
   hosts: frontend
   tasks:
-  -name: "Debug"
-  debug:
-    msg: "This is debug message"
+  - name: "Debug"
+    debug:
+      msg: "This is debug message"
