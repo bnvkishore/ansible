@@ -1,0 +1,16 @@
+- name: Variable preference
+  hosts: frontend
+  vars:
+    full_name: "Kishore from play"
+  vars_files:
+  - course.yaml
+  vars_prompt:
+  - name: full_name
+    prompt: Please enter your full name
+    private: false
+  tasks:
+  - name: Print var preference
+    vars:
+      full_name: "Kishore from task level"
+    debug:
+      msg: "hi, {{ full_name }}"
