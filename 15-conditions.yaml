@@ -1,6 +1,6 @@
 - name: conditions using ansible_facts
   hosts: frontend
-  task:
+  tasks:
   - name: print if Redhat
     debug:
       msg: "OS family is Redhat, package manager is dnf"
