@@ -12,12 +12,12 @@
     more_details:
       months: '5'
       trainer: Kishore
-    tasks:
-    - name: Print information
-      debug:
-        msg: |
-          name: {{ course }}
-          duration: {{ duration_in_hrs}}
-          is_it_live: {{ is_live_session }}
-          topics: {{ topics }}
-          more_details: {{ more_details }}
+  tasks:
+  - name: Print information
+    debug:
+      msg: |
+        name: {{ course }}
+        duration: {{ duration_in_hrs}}
+        is_it_live: {{ is_live_session }}
+        topics: {{ topics }}
+        more_details: {{ more_details }}
