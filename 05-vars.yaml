@@ -1,4 +1,4 @@
-- name: "demo on play level variables"
+- name: "demo on task level variables"
   hosts: localhost
   connection: local
   vars:
@@ -6,5 +6,8 @@
     TRAINER: "shiva"
     DURATION: "150hrs"
   tasks:
-  - debug:
+  - name: "Print information"
+    vars: 
+      COURSE: "DevSecOps with AIOps"
+    debug:
       msg: "HI learning {{ COURSE }}, trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
