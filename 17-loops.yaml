@@ -1,5 +1,5 @@
 - name: Install packages
-  host: frontend
+  hosts: frontend
   become: Yes
   tasks:
   - name: install packages
