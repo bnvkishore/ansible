@@ -1,0 +1,22 @@
+- name: Demo on data types
+  hosts: local
+  connection: local
+  vars:
+    course: "DevSecOps with AIOps"
+    duration_in_hrs: 150
+    is_live_session: true
+    topics:
+    - linux
+    - shell
+    - ansible
+    more_details:
+      months: '5'
+      trainer: Kishore
+    tasks:
+    - name: Print information
+      msg: |
+        name: {{ course }}
+        duration: {{ duration_in_hrs}}
+        is_it_live: {{ is_live_session }}
+        topics: {{ topics }}
+        more_details: {{ more_details }}
