@@ -1,4 +1,4 @@
-- name: Demo on var_files
+- name: Demo on vars_files
   hosts: local
   connection: local
   vars_files:
