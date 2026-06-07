@@ -16,6 +16,6 @@
     debug:
       msg: "HI {{ GREETING | default('Good morning')}}"
 
-  - namme: Convert map to list
+  - name: Convert map to list
     debug:
       msg: "{{ tagMap | dict2items }}"
